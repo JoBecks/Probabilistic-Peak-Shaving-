@@ -16,8 +16,8 @@ Project Organization
 │   │   └── raw				<- Original dataset 
 │   │
 │   ├── FCR_market_data  		<- FCR market data from 2019 - 2021 
-│   ├── forecast_data			<- Final output of the Q-LSTM: Probablistic forecasts
-│   ├── hyperparameter_and_loss_data    <- Raw output of the Q-LSTM: Chosen hyperparameters, test loss and normalized forecast data
+│   ├── forecast_data			<- Final Q-LSTM output: Probablistic forecasts
+│   ├── hyperparameter_and_loss_data    <- Raw Q-LSTM output: Chosen hyperparameters, test loss and normalized forecast
 │   └── regulation_signal_data		<- Regulation signal data in 1s resolution from 2019 - 2021
 │
 └── requirements.txt			<- requirements for the venv for running the scripts
